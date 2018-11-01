@@ -21,6 +21,9 @@
 
 #include <stdio.h>
 
-int main(int argc, char *argv[]) {
+// prototipo de función
+long a_very_big_sum(int n, long long int ar[]);
 
+int main(int argc, char *argv[]) {
+        
 }
