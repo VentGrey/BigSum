@@ -25,7 +25,27 @@
 
 int main(int argc, char *argv[]) {
         int n;
+        long long int array[n], suma;
+
         printf("Ingrese la cantidad de elementos a evaluar: ");
         scanf("%d", &n);
-        long long int array[n];
+
+        if(!(n >= 1) || !(n <= 10) ) {
+
+                printf("Las condiciones no se cumplieron, saliendo");
+                return 1;
+
+        } else {
+                int suma;
+                for(int i = 0; i < n; i++) {
+                        scanf("%lld", &array[i]);
+                }
+
+                 for(int i = 0; i < n; i++) {
+                         suma = suma + array[i];
+                }
+        }
+        printf("%lld", suma);
+        return 0;
+
 }
