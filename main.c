@@ -22,8 +22,10 @@
 #include <stdio.h>
 
 // prototipo de función
-long a_very_big_sum(int n, long long int ar[]);
 
 int main(int argc, char *argv[]) {
-        
+        int n;
+        printf("Ingrese la cantidad de elementos a evaluar: ");
+        scanf("%d", &n);
+        long long int array[n];
 }
